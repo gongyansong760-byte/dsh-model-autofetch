@@ -1,0 +1,26 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.npmrc
+.pnpm-store/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch
+*.local.*
+tmp/
+*.zip
+*.tgz
+
+# Never commit real credentials: this plugin reads them from the Harness
+# credential store, but a stray copy here would be a leak.
+.credentials.yaml
+.env
+.env.*

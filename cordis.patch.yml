@@ -1,0 +1,10 @@
+# Bundle patch for dsh-model-autofetch.
+#
+# The host half (exports ".") mounts one same-origin route used to ask a
+# provider's own endpoint for its model list with the credential already stored
+# in this profile. The `dsh.client` declaration in package.json loads the client
+# half (exports "./client") in the Web GUI, which registers the 「拉取模型」button
+# into the Models settings page's per-provider card area.
+- insert:
+    - id: dsh-model-autofetch
+      name: 'dsh-model-autofetch'

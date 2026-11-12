@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model list auto-fetch",
+    "description": "Adds a Fetch-models button to every provider card in Models settings: asks the provider's own endpoint for its model list and merges the new models into the configuration."
+  }
+}
