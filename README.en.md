@@ -38,13 +38,19 @@ Adds a **Fetch models** button to every provider card in the Harness Web GUI's M
 
 ## Install
 
-Installed in the `desktop` profile. For another profile:
+Requires DSH `>= 0.2.1-rc.2`.
+
+```powershell
+dsh plugin add "https://github.com/gongyansong760-byte/dsh-model-autofetch"
+```
+
+Or point it at a local checkout (handier while editing the source):
 
 ```powershell
 dsh plugin add "E:\dsh插件\dsh-model-autofetch"
 ```
 
-Reload the page (Ctrl+R); the button appears at the bottom of each provider card.
+Reload the page (Ctrl+R); the button appears at the bottom of each provider card. A host-half change needs a DSH restart; the client half only needs a refresh.
 
 ## Verification
 

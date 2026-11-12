@@ -40,13 +40,19 @@
 
 ## 安装
 
-已装进 `desktop` profile。要在别的 profile 装：
+要求 DSH `>= 0.2.1-rc.2`。
+
+```powershell
+dsh plugin add "https://github.com/gongyansong760-byte/dsh-model-autofetch"
+```
+
+也可以直接用本地目录（改了代码想立刻生效时更方便）：
 
 ```powershell
 dsh plugin add "E:\dsh插件\dsh-model-autofetch"
 ```
 
-装完刷新页面（Ctrl+R）。按钮出现在每个提供商卡片底部。
+装完刷新页面（Ctrl+R）。按钮出现在每个提供商卡片底部。宿主半改了要重启 DSH，客户端半刷新即可。
 
 ## 自带验证
 

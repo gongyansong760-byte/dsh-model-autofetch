@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "dsh-model-autofetch",
   "version": "0.1.0",
   "private": true,
@@ -6,11 +6,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gongyangsong760-byte/dsh-model-autofetch.git"
+    "url": "git+https://github.com/gongyansong760-byte/dsh-model-autofetch.git"
   },
-  "homepage": "https://github.com/gongyangsong760-byte/dsh-model-autofetch#readme",
+  "homepage": "https://github.com/gongyansong760-byte/dsh-model-autofetch#readme",
   "bugs": {
-    "url": "https://github.com/gongyangsong760-byte/dsh-model-autofetch/issues"
+    "url": "https://github.com/gongyansong760-byte/dsh-model-autofetch/issues"
   },
   "type": "module",
   "main": "index.js",
